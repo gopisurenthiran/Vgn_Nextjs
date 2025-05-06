@@ -13,6 +13,7 @@ import Contact from "@/components/category/contact";
 import Selling from "@/components/category/selling";
 import Property from "@/components/category/property";
 import Brands from "@/components/category/brand";
+import HelpCenter from "@/components/homes/home-1/HelpCenter";
 import React from "react";
 
 
@@ -28,6 +29,7 @@ export default function Home() {
       <Hero />
       <div className="main-content ">
          <Facts />
+         <HelpCenter/>
          <Categories />
          <Properties />
          <VideoReview/>

@@ -12,10 +12,13 @@ export const homes = [
 ];
 
 export const propertyLinks = [
+ 
   {
     title: "Layout",
     submenu: [
-      { href: "/About", label: "About Us" },
+      { href: "/about", label: "About Us" },
+      
+      // { href: "/property-grid-full-width", label: "Grid Style - Full Width" },
       // { href: "/property-gird-top-search", label: "Grid Style - Top Search" },
       // {
       //   href: "/property-gird-left-sidebar",
@@ -37,61 +40,64 @@ export const propertyLinks = [
       // },
     ],
   },
-  {
-    title: "Feature",
-    submenu: [
-      { href: "/property-half-map-grid", label: "Property Half Map Grid" },
-      { href: "/property-half-map-list", label: "Property Half Map List" },
-      { href: "/property-half-top-map", label: "Property Half Map Top" },
-      { href: "/property-filter-popup", label: "Property Filter Popup" },
-      {
-        href: "/property-filter-popup-left",
-        label: "Property Filter Popup Left",
-      },
-      {
-        href: "/property-filter-popup-right",
-        label: "Property Filter Popup Right",
-      },
-    ],
-  },
-  {
-    title: "Listing Details",
-    submenu: [
-      { href: "/property-detail-v1/1", label: "Property Details 1" },
-      { href: "/property-detail-v2/1", label: "Property Details 2" },
-      { href: "/property-detail-v3/1", label: "Property Details 3" },
-      { href: "/property-detail-v4/1", label: "Property Details 4" },
-      { href: "/property-detail-v5/1", label: "Property Details 5" },
-    ],
-  },
+  // {
+  //   title: "Feature",
+  //   submenu: [
+  //     { href: "/property-half-map-grid", label: "Property Half Map Grid" },
+  //     { href: "/property-half-map-list", label: "Property Half Map List" },
+  //     { href: "/property-half-top-map", label: "Property Half Map Top" },
+  //     { href: "/property-filter-popup", label: "Property Filter Popup" },
+  //     {
+  //       href: "/property-filter-popup-left",
+  //       label: "Property Filter Popup Left",
+  //     },
+  //     {
+  //       href: "/property-filter-popup-right",
+  //       label: "Property Filter Popup Right",
+  //     },
+  //   ],
+  // },
+  // {
+  //   title: "Listing Details",
+  //   submenu: [
+  //     { href: "/property-detail-v1/1", label: "Property Details 1" },
+  //     { href: "/property-detail-v2/1", label: "Property Details 2" },
+  //     { href: "/property-detail-v3/1", label: "Property Details 3" },
+  //     { href: "/property-detail-v4/1", label: "Property Details 4" },
+  //     { href: "/property-detail-v5/1", label: "Property Details 5" },
+  //   ],
+  // },
 ];
 
 export const otherPages = [
-  {
-    title: "Agents",
-    className: "has-child",
-    submenu: [
-      { href: "/agents", label: "Agents" },
-      { href: "/agents-details/1", label: "Agents Details" },
-    ],
-  },
-  {
-    title: "Agencies",
-    className: "has-child",
-    submenu: [
-      { href: "/agency-grid", label: "Agencies Grid" },
-      { href: "/agency-list", label: "Agencies List" },
-      { href: "/agency-details/1", label: "Agencies Detail" },
-    ],
-  },
-  { href: "/home-loan-process", label: "Home Loan Process" },
-  { href: "/career", label: "Career" },
-  { href: "/faq", label: "Faq's" },
-  { href: "/compare", label: "Compare" },
-  { href: "/project-list", label: "Project List" },
-  { href: "/project-details/1", label: "Project Details" },
-  { href: "/404", label: "Page 404" },
-  { href: "/dashboard", label: "Dashboard" },
+  { href: "/ongoing-project", label: "Ongoing Projects" },
+  { href: "/completed-project", label: "Completed Projects" },
+
+  // {
+  //   title: "Agents",
+  //   className: "has-child",
+  //   submenu: [
+  //     { href: "/agents", label: "Agents" },
+  //     { href: "/agents-details/1", label: "Agents Details" },
+  //   ],
+  // },
+  // {
+  //   title: "Agencies",
+  //   className: "has-child",
+  //   submenu: [
+  //     { href: "/agency-grid", label: "Agencies Grid" },
+  //     { href: "/agency-list", label: "Agencies List" },
+  //     { href: "/agency-details/1", label: "Agencies Detail" },
+  //   ],
+  // },
+  // { href: "/home-loan-process", label: "Home Loan Process" },
+  // { href: "/career", label: "Career" },
+  // { href: "/faq", label: "Faq's" },
+  // { href: "/compare", label: "Compare" },
+  // { href: "/project-list", label: "Project List" },
+  // { href: "/project-details/1", label: "Project Details" },
+  // { href: "/404", label: "Page 404" },
+  // { href: "/dashboard", label: "Dashboard" },
 ];
 
 export const blogMenu = [

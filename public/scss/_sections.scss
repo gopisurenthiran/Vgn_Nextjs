@@ -1853,5 +1853,21 @@
 }
 
 .list-vision li{
-  list-style-type: disc;
+  list-style-type:none;
+}
+@media(min-width:320px){
+  .list-vision li{
+    text-align: center;
+  }
+}
+@media(min-width:690px){
+  .list-vision li{
+    list-style-type: disc;
+  }
+}
+@media(min-width:1020px){
+  .list-vision li{
+    text-align: left;
+    list-style-type: disc;
+  }
 }

@@ -6,9 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "export":"next export",
+    "export": "next export",
     "lint": "next lint",
-    "start:custom":"NODE_ENV=production node server.js"
+    "start:custom": "NODE_ENV=production node server.js"
   },
   "dependencies": {
     "@react-google-maps/api": "^2.20.6",
@@ -17,7 +17,7 @@
     "chart.js": "^4.4.7",
     "gsap": "^3.12.7",
     "gsap-trial": "^3.12.7",
-    "next": "15.1.7",
+    "next": "^15.3.1",
     "odometer": "^0.4.8",
     "photoswipe": "^5.4.4",
     "rc-slider": "^11.1.8",
