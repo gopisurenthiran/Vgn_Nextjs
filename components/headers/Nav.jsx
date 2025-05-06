@@ -42,8 +42,8 @@ export default function Nav() {
           isParentActive(propertyLinks) ? "current-menu" : ""
         } `}
       >
-        <a href="#">About Us</a>
-        <ul className="submenu">
+        <a href="/about">About Us</a>
+        {/* <ul className="submenu">
           {propertyLinks.map((menu, index) => (
             <li key={index}>
               <a href="#">{menu.title}</a>
@@ -63,7 +63,7 @@ export default function Nav() {
               </ul>
             </li>
           ))}
-        </ul>
+        </ul> */}
       </li>
       <li
         className={`has-child  ${

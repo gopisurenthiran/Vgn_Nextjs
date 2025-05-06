@@ -15,26 +15,26 @@ export const propertyLinks = [
   {
     title: "Layout",
     submenu: [
-      { href: "/property-grid-full-width", label: "Grid Style - Full Width" },
-      { href: "/property-gird-top-search", label: "Grid Style - Top Search" },
-      {
-        href: "/property-gird-left-sidebar",
-        label: "Grid Style - Sidebar Left",
-      },
-      {
-        href: "/property-gird-right-sidebar",
-        label: "Grid Style - Sidebar Right",
-      },
-      { href: "/property-list-full-width", label: "List Style - Full Width" },
-      { href: "/property-list-top-search", label: "List Style - Top Search" },
-      {
-        href: "/property-list-left-sidebar",
-        label: "List Style - Sidebar Left",
-      },
-      {
-        href: "/property-list-right-sidebar",
-        label: "List Style - Sidebar Right",
-      },
+      { href: "/About", label: "About Us" },
+      // { href: "/property-gird-top-search", label: "Grid Style - Top Search" },
+      // {
+      //   href: "/property-gird-left-sidebar",
+      //   label: "Grid Style - Sidebar Left",
+      // },
+      // {
+      //   href: "/property-gird-right-sidebar",
+      //   label: "Grid Style - Sidebar Right",
+      // },
+      // { href: "/property-list-full-width", label: "List Style - Full Width" },
+      // { href: "/property-list-top-search", label: "List Style - Top Search" },
+      // {
+      //   href: "/property-list-left-sidebar",
+      //   label: "List Style - Sidebar Left",
+      // },
+      // {
+      //   href: "/property-list-right-sidebar",
+      //   label: "List Style - Sidebar Right",
+      // },
     ],
   },
   {

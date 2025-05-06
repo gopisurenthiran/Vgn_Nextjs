@@ -55,4 +55,41 @@ export const category = [
       listings: "476 listings for sale",
     },
   ];
+export const testimonials4 = [
+  {
+    id: 1,
+    avatarSrc: "/images/banner/testimonials-3.webp",
+    description: "Proin auctor, mauris at tristique ullamcorper, nunc nisi sagittis velit, eget blandit dolor arcu sed ante. Fusce euismod varius massa, id viverra nisl semper ut. Aliquam felis eros, eleifend non faucibus at.",
+    name: "Ronald Richards",
+    role: "CEO Themesflat",
+  },
+  {
+    id: 2,
+    avatarSrc: "/images/banner/testimonials-2.webp",
+    description: "Proin auctor, mauris at tristique ullamcorper, nunc nisi sagittis velit, eget blandit dolor arcu sed ante. Fusce euismod varius massa, id viverra nisl semper ut. Aliquam felis eros, eleifend non faucibus at.",
+    name: "Courtney Henry",
+    role: "CEO Themesflat",
+  },
+  {
+    id: 3,
+    avatarSrc: "/images/banner/testimonials-4.webp",
+    description: "Proin auctor, mauris at tristique ullamcorper, nunc nisi sagittis velit, eget blandit dolor arcu sed ante. Fusce euismod varius massa, id viverra nisl semper ut. Aliquam felis eros, eleifend non faucibus at.",
+    name: "Ronald Richards",
+    role: "CEO Themesflat",
+  },
+  {
+    id: 4,
+    avatarSrc: "/images/banner/testimonials-3.webp",
+    description: "Proin auctor, mauris at tristique ullamcorper, nunc nisi sagittis velit, eget blandit dolor arcu sed ante. Fusce euismod varius massa, id viverra nisl semper ut. Aliquam felis eros, eleifend non faucibus at.",
+    name: "Annette Black",
+    role: "CEO Themesflat",
+  },
+  {
+    id: 5,
+    avatarSrc: "/images/banner/testimonials-3.webp",
+    description: "Proin auctor, mauris at tristique ullamcorper, nunc nisi sagittis velit, eget blandit dolor arcu sed ante. Fusce euismod varius massa, id viverra nisl semper ut. Aliquam felis eros, eleifend non faucibus at.",
+    name: "Ronald Richards",
+    role: "CEO Themesflat",
+  },
+];
   

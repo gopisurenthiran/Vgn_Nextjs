@@ -159,49 +159,6 @@ export const slides = [
   },
 ];
 
-export const testimonials4 = [
-  {
-    id: 1,
-    avatarSrc: "/images/avatar/testimonials-3.jpg",
-    description:
-      "Proin auctor, mauris at tristique ullamcorper, nunc nisi sagittis velit, eget blandit dolor arcu sed ante. Fusce euismod varius massa, id viverra nisl semper ut. Aliquam felis eros, eleifend non faucibus at.",
-    name: "Ronald Richards",
-    role: "CEO Themesflat",
-  },
-  {
-    id: 2,
-    avatarSrc: "/images/avatar/testimonials-2.jpg",
-    description:
-      "Proin auctor, mauris at tristique ullamcorper, nunc nisi sagittis velit, eget blandit dolor arcu sed ante. Fusce euismod varius massa, id viverra nisl semper ut. Aliquam felis eros, eleifend non faucibus at.",
-    name: "Courtney Henry",
-    role: "CEO Themesflat",
-  },
-  {
-    id: 3,
-    avatarSrc: "/images/avatar/testimonials-4.jpg",
-    description:
-      "Proin auctor, mauris at tristique ullamcorper, nunc nisi sagittis velit, eget blandit dolor arcu sed ante. Fusce euismod varius massa, id viverra nisl semper ut. Aliquam felis eros, eleifend non faucibus at.",
-    name: "Ronald Richards",
-    role: "CEO Themesflat",
-  },
-  {
-    id: 4,
-    avatarSrc: "/images/avatar/testimonials-3.jpg",
-    description:
-      "Proin auctor, mauris at tristique ullamcorper, nunc nisi sagittis velit, eget blandit dolor arcu sed ante. Fusce euismod varius massa, id viverra nisl semper ut. Aliquam felis eros, eleifend non faucibus at.",
-    name: "Annette Black",
-    role: "CEO Themesflat",
-  },
-  {
-    id: 5,
-    avatarSrc: "/images/avatar/testimonials-3.jpg",
-    description:
-      "Proin auctor, mauris at tristique ullamcorper, nunc nisi sagittis velit, eget blandit dolor arcu sed ante. Fusce euismod varius massa, id viverra nisl semper ut. Aliquam felis eros, eleifend non faucibus at.",
-    name: "Ronald Richards",
-    role: "CEO Themesflat",
-  },
-];
-
 export const testimonials5 = [
   {
     rating: 5, // Number of stars

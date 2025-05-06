@@ -83,7 +83,7 @@ function getInnerHeight() {
 // Minimalistic WeakMap shim, just in case.
 const WeakMap =
   window.WeakMap ||
-  window.MozWeakMap ||
+  window.WeakMap ||
   class WeakMap {
     constructor() {
       this.keys = [];
@@ -117,8 +117,8 @@ const WeakMap =
 // Dummy MutationObserver, to avoid raising exceptions.
 const MutationObserver =
   window.MutationObserver ||
-  window.WebkitMutationObserver ||
-  window.MozMutationObserver ||
+  window.MutationObserver ||
+  window.MutationObserver ||
   class MutationObserver {
     constructor() {
       if (typeof console !== "undefined" && console !== null) {
@@ -370,7 +370,7 @@ export default class WOW {
     let result = style.getPropertyValue(property);
     for (let i = 0; i < this.vendors.length; i++) {
       const vendor = this.vendors[i];
-      result = result || style.getPropertyCSSValue(`-${vendor}-${property}`);
+      result = result || style.getPropertyValue(`-${vendor}-${property}`);
     }
     return result;
   }

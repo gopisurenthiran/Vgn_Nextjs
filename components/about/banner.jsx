@@ -5,7 +5,7 @@ export default function Banner() {
   return (
     <section className="section-appraisal style-2">
       <div className="wg-appraisal">
-        <div className="container">
+        <div className="tf-container">
           <div className="row">
             <div className="col-12">
               <div className="content">
@@ -41,7 +41,7 @@ export default function Banner() {
                     alt=""
                     width={366}
                     height={491}
-                    src="/images/banner/person-1.webp"
+                    src="/images/section/person-1.png"
                   />
                 </div>
               </div>
